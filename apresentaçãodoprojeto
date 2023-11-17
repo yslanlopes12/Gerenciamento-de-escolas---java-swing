@@ -1,0 +1,124 @@
+1. DESCRIÇÃO DO PROJETO
+O objetivo deste projeto é desenvolver um aplicativo desktop em Java Swing
+para gerenciar escolas, professores, alunos e cursos. A aplicação permitirá a
+criação de escolas, adição de diretores, professores e alunos a cada escola,
+bem como a criação e gerenciamento de cursos em cada escola. Os alunos
+também devem ser inscritos em cursos, e a aplicação deve ser capaz de gerar
+relatórios de notas para cada curso, incluindo a média e o desvio padrão da
+turma.
+O projeto poderá ser desenvolvido em equipes de até 3 alunos.
+
+2. REQUISITOS FUNCIONAIS
+2.1 Criação e Gerenciamento de Escolas
+● A aplicação deve permitir a criação de escolas com os seguintes detalhes:
+nome, endereço, número de identificação da escola (ID) e ano de fundação.
+● Cada escola deve ter um diretor associado, com informações como nome,
+número de identificação, data de contratação e outras informações
+relevantes.
+2.2 Cadastro de Professores e Alunos
+● Para cada escola, a aplicação deve permitir adicionar professores com os
+seguintes detalhes: nome, número de identificação, data de contratação,
+disciplina lecionada e outras informações relevantes.
+● Os alunos devem ser cadastrados para cada escola com os seguintes
+detalhes: nome, número de matrícula, série, data de inscrição e outras
+informações pertinentes.
+2.3 Criação e Gerenciamento de Cursos
+● Para cada escola, a aplicação deve permitir a criação de cursos com os
+seguintes detalhes: nome do curso, código do curso, descrição e ano de
+início.
+● Cada curso deve estar associado a um professor responsável, com atributos
+como nome, número de identificação e disciplina ministrada.
+● Cada curso tem no seu decorrer duas provas.
+2.4 Inscrição de Alunos em Cursos
+● A aplicação deve permitir a inscrição de alunos em cursos específicos de
+uma escola.
+● Os alunos inscritos devem ser associados a um curso específico e devem ser
+registradas notas para cada aluno em cada curso.
+2.5 Geração de Relatórios de Cursos
+● A aplicação deve ser capaz de gerar um relatório detalhado para cada curso
+de uma escola.
+● O relatório deve incluir o nome de todos os alunos inscritos no curso, suas
+notas individuais, a média da turma e o desvio padrão da turma.
+
+3. REQUISITOS TÉCNICOS
+A aplicação deve ser desenvolvida em Java usando a biblioteca Swing para
+criar a interface gráfica.
+Os dados da escola, professores, alunos, cursos e notas devem ser
+armazenados em estruturas de dados apropriadas, como classes e coleções.
+Utilize programação orientada a objetos para organizar o código.
+Implemente tratamento de exceções para lidar com erros potenciais.
+Crie uma interface de usuário amigável e intuitiva para navegar pelas
+funcionalidades do aplicativo.
+Pontuação extra:
+Persistência de Dados (1,0 ponto): Os dados devem ser armazenados e
+recuperados de forma consistente e segura. Ou seja, o programa deve conseguir
+salvar as informações para que possa ser reutilizado no futuro.
+
+4. AVALIAÇÃO
+Funcionalidade (30%)
+● Implementação das funcionalidades principais (10%): Avalie se todas as
+funcionalidades essenciais, como criação de escolas, adição de professores
+e alunos, gerenciamento de cursos e geração de relatórios, foram
+corretamente implementadas.
+● Atendimento aos requisitos (10%): Verifique se o projeto cumpre todos os
+requisitos especificados na diretriz do projeto.
+● Exceção e Erro (10%): Certifique-se de que a aplicação lida adequadamente
+com exceções e erros, garantindo que o sistema não quebre quando
+ocorrerem problemas.
+Usabilidade (20%)
+● Interface do Usuário (10%): Avalie a amigabilidade da interface de usuário,
+considerando a facilidade de navegação e o layout geral.
+● Eficiência na Navegação (10%): Verifique se os usuários podem facilmente
+encontrar e usar as funcionalidades do aplicativo, sem confusão ou
+dificuldades excessivas.
+Qualidade do Código (20%)
+● Estrutura e Organização (10%): Analise se o código-fonte está bem
+organizado, com classes, métodos e variáveis nomeados de maneira
+significativa e organizados logicamente.
+● Programação Orientada a Objetos (10%): Verifique se os princípios de
+programação orientada a objetos foram adequadamente aplicados, incluindo
+encapsulamento, herança e polimorfismo.
+Tratamento de Erros (10%)
+● Exceções (5%): Avalie se o tratamento de exceções foi implementado de
+forma apropriada, evitando que o aplicativo trave ou gere erros inesperados.
+● Mensagens de Erro (5%): Certifique-se de que as mensagens de erro
+apresentadas ao usuário sejam úteis e informativas.
+Armazenamento de Dados (10%)
+● Estruturas de Dados (5%): Analise se as estruturas de dados usadas para
+armazenar informações, como escolas, professores, alunos, cursos e notas,
+são apropriadas e eficientes.
+● Persistência de Dados (5%): Verifique se os dados são armazenados e
+recuperados de forma consistente e segura.
+
+Apresentação do Projeto (10%)
+● Comunicação (5%): Avalie a capacidade dos alunos de comunicar
+eficazmente as funcionalidades do projeto e explicar o código-fonte.
+● Demonstração (5%): Verifique se os alunos conseguem demonstrar o
+funcionamento do aplicativo, destacando seus recursos-chave.
+
+5. ENTREGA
+A equipe deve entregar um github contendo o contexto do projeto, seu
+objetivo, as funcionalidades que o software tem, os integrantes da equipe e os
+códigos desenvolvidos.
+A equipe também deve fazer uma apresentação para o professor do projeto
+funcionando.
+As apresentações serão nos seguintes dias: 29/11 às 07:10h para a sub A e
+27/11 às 08:50 para a sub B.
+
+6. DICAS
+Certifique-se de que você e sua equipe tenham uma compreensão sólida dos
+requisitos do projeto. Isso inclui as funcionalidades necessárias, os detalhes
+específicos sobre como as escolas, professores, alunos e cursos devem ser
+modelados e como os relatórios devem ser gerados.
+Inicie o projeto com um design sólido. Isso envolve a criação de diagramas
+de classe que representam as entidades do sistema (escolas, professores, alunos,
+cursos, etc.) e suas relações. Use diagramas UML ou outras ferramentas de
+modelagem.
+Antes de começar a programar o front-end, faça desenhos e esboços das
+telas para verificar se as posições dos elementos estão adequados, se o fluxo entre
+as telas faz sentido, se todos os requisitos estão sendo satisfeitos e se todos da
+equipe entenderam o processo.
+Comece a implementar as funcionalidades do projeto de forma gradual.
+Concentre-se primeiro nas funcionalidades principais, como a criação de escolas e o
+cadastro de professores e alunos. Teste cada funcionalidade conforme a
+implementa.
